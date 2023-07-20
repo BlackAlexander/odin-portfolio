@@ -1,2 +1,2 @@
-# odin-portofolio
-Portofolio as web project for BitStone training.
+# odin-portfolio
+Portfolio as web project for BitStone training.
