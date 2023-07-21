@@ -72,6 +72,16 @@ h2{
     margin: 20px 30%;
 }
 
+.contact-me {
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(255, 255, 255, 0.25);
+    margin: 20px 30%;
+    color: #ececec;
+    padding: 1px 30px 20px;
+}
+
 .my-work {
     display: flex;
     justify-content: center;
@@ -88,8 +98,9 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     gap: 0;
     width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 20px;
 }
 
 .project-item {
@@ -97,9 +108,19 @@ h2{
     border-radius: 3px;
     font-size: 1.2rem;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    width: 80%;
+    width: 95%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+}
+
+.project-item-title, .project-item-description {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.project-item-title {
+    font-weight: bold;
 }
