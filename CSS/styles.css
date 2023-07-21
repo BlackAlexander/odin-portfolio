@@ -102,16 +102,19 @@ h2{
 .project-item {
     background: rgba(255, 253, 253, 0.45);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 8px;
     font-size: 1.2rem;
     width: 95%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 3px solid transparent;
 }
 
-/*ADD AN ORANGE BORDER TO PROJECTS ON HOVER*/
+.project-item:hover {
+    border: 3px solid darkorange;
+}
 
 .link-icon {
     height: 1rem;
