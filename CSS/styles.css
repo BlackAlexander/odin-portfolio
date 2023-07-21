@@ -1,7 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
-    background-color: #2f2f2f;
     text-align: center;
-    color: #cecece;
+    color: #111111;
+    font-family: "Anaheim", sans-serif;
+}
+
+@font-face{
+    font-family: "Allerta Stencil";
+    src: url("../Assets/Fonts/AllertaStencil-Regular.ttf")
+}
+
+@font-face{
+    font-family: "Anaheim";
+    src: url("../Assets/Fonts/Anaheim-Regular.ttf")
+}
+
+.background-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../Assets/Design/background-emile.jpg');
+    filter: grayscale(20%) brightness(90%);
+    background-size: 100%;
+}
+.section {
+    position: relative;
+    z-index: 1;
 }
 
 .flash-logo {
@@ -18,4 +48,34 @@ html {
 .social-icons a {
     text-decoration: none;
     font-size: 2rem;
+    filter: brightness(0);
+}
+
+.life-skills {
+    font-size: 1.3rem;
+}
+
+.my-name{
+    color: #000000;
+    font-family: "Allerta Stencil", sans-serif;
+    margin-bottom: 5px;
+}
+
+.my-projects{
+    display: grid;
+}
+
+hr{
+    border-color: #000000;
+}
+
+.short-description{
+    background: rgba(255, 255, 255, 0.45);
+    font-size: 1.2rem;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+
 }
