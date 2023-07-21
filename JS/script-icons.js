@@ -7,7 +7,6 @@ function changeClassBack(element) {
 }
 
 function adjustBrightness() {
-    console.log(window.innerWidth);
     let brightnessValue;
     if (window.innerWidth > 1000){
         brightnessValue = 0;
@@ -16,7 +15,6 @@ function adjustBrightness() {
     } else {
         brightnessValue = -(0.4)*(window.innerWidth)+400;
         brightnessValue /= 10;
-        console.log(brightnessValue);
     }
     const socialIcons = document.querySelectorAll('.social-icons a');
     socialIcons.forEach(icon => {

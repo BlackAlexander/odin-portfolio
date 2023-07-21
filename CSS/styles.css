@@ -40,11 +40,6 @@ html {
     margin-bottom: 30px;
 }
 
-.my-work ul {
-    list-style-type: ">";
-    list-style-position: inside;
-}
-
 .social-icons a {
     text-decoration: none;
     font-size: 2rem;
@@ -61,21 +56,50 @@ html {
     margin-bottom: 5px;
 }
 
-.my-projects{
-    display: grid;
-}
-
 hr{
     border-color: #000000;
 }
 
-.short-description{
+h2{
+    font-size: 1.9rem;
+}
+
+.short-description {
     background: rgba(255, 255, 255, 0.45);
     font-size: 1.2rem;
     border-radius: 3px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-    margin-top: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: 20px 30%;
+}
 
+.my-work {
+    display: flex;
+    justify-content: center;
+}
+
+.link-icon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.my-projects{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.project-item {
+    background: rgba(255, 253, 253, 0.45);
+    border-radius: 3px;
+    font-size: 1.2rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
